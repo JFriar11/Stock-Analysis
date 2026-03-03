@@ -1,5 +1,7 @@
 # Stock-Analysis
 
+![App](images/pic.png)
+
 An interactive **factor research and portfolio backtesting dashboard**
 built with **Python, Streamlit, and Plotly**.
 
