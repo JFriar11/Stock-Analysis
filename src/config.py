@@ -1,0 +1,6 @@
+DEFAULT_TICKERS = [
+    "AAPL","MSFT","AMZN","GOOGL","META","NVDA","TSLA","JPM","V","MA",
+    "UNH","XOM","LLY","AVGO","COST","HD","PG","JNJ","MRK","KO",
+    "PEP","WMT","ABBV","CRM","ADBE","CSCO","NFLX","BAC","AMD","INTC"
+]
+BENCHMARK = "SPY"
