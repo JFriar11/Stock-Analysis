@@ -89,39 +89,11 @@ Users can adjust:
 
 Charts update dynamically after running a backtest.
 
-------------------------------------------------------------------------
 
-# Project Structure
-
-    factor-backtest-lab/
-    │
-    ├── app/
-    │   └── Home.py            # Streamlit dashboard
-    │
-    ├── src/
-    │   ├── config.py          # Ticker universe and constants
-    │   ├── data.py            # Data download and caching
-    │   ├── features.py        # Factor calculations
-    │   ├── strategies.py      # Portfolio signal generation
-    │   ├── backtest.py        # Portfolio simulation engine
-    │   └── metrics.py         # Performance metrics
-    │
-    ├── tests/
-    │   └── test_metrics.py
-    │
-    ├── requirements.txt
-    └── README.md
-
-------------------------------------------------------------------------
 
 # Installation
 
-Clone the repository:
-
-``` bash
-git clone https://github.com/yourusername/factor-backtest-lab.git
-cd factor-backtest-lab
-```
+## First Run in Project Folder
 
 Create a virtual environment:
 
@@ -171,40 +143,4 @@ Then open the provided local URL (usually `http://localhost:8501`).
 -   yfinance
 -   SciPy
 
-------------------------------------------------------------------------
 
-# Limitations
-
-This project is intended for **educational and research purposes only**.
-
-Important limitations include:
-
--   Uses Yahoo Finance data (may contain errors)
--   Static ticker universe introduces **survivorship bias**
--   Does not include market impact modeling
--   Simplified transaction cost assumptions
-
-------------------------------------------------------------------------
-
-# Future Improvements
-
-Potential extensions:
-
--   Additional factors (RSI, volatility, value signals)
--   Factor predictive power analysis
--   **Factor correlation heatmap**
--   Decile return analysis
--   Rolling Sharpe and volatility regimes
--   Portfolio optimization (risk parity / minimum variance)
--   Deployment to Streamlit Cloud
-
-------------------------------------------------------------------------
-
-# Author
-
-Built as a **data science portfolio project** demonstrating:
-
--   time series analysis
--   financial data engineering
--   backtesting methodology
--   interactive dashboard development
